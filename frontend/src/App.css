@@ -1,0 +1,90 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+.page {
+  margin: 20px 0
+}
+
+.page:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.wrapper {
+  margin: 0 auto;
+  position: relative;
+  padding: 0 20px;
+  min-height: 600px;
+}
+
+.content-wrapper {
+  float: left;
+}
+
+.content {
+  margin-right: 320px;
+  clear: both;
+  overflow: auto;
+  background: #1abc9c;
+  background: rgba(26,188,156, 0.4);
+  min-height: 600px;
+}
+
+.sidebar {
+  position: relative;
+  width: 700px;
+  margin-left: -320px;
+  float: right;
+  overflow: hidden;
+  max-height: 700px;
+  margin-top:100px;
+}
+
+.reading-list {
+  max-height: 600px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.css-sptymy-MuiGrid2-root{
+  width: auto !important;
+}
+
+.add-reding-list-btn{
+  float: left !important;
+}
+
+a{
+  display: block;
+  text-align:center;
+  margin: 10px auto;
+  width: 100%;
+  color: #2c3e50;
+}
+
+.ello-logo img{
+    object-fit:contain !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+  .content {
+    margin-right: 0;
+  }
+}
